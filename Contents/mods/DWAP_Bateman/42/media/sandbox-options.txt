@@ -1,0 +1,73 @@
+VERSION = 1,
+
+
+option DWAPBateman.MakePrimary
+{
+	type = boolean,
+	default = false,
+
+	page = DWAPBateman_General,
+	translation = DWAPBateman_MakePrimary,
+}
+
+option DWAPBateman.KeepZombies
+{
+	type = boolean,
+	default = true,
+
+	page = DWAPBateman_General,
+	translation = DWAPBateman_KeepZombies,
+}
+
+option DWAPBateman.SpawnLocation
+{
+	type = enum,
+	numValues = 9,
+	default = 2,
+
+	page = DWAPBateman_General,
+	translation = DWAPBateman_SpawnLocation,
+	valueTranslation = DWAPBateman_SpawnLocation_value,
+}
+
+option DWAPBateman.KeyAndMap
+{
+	type = enum,
+	numValues = 2,
+	default = 1,
+
+	page = DWAPBateman_General,
+	translation = DWAPBateman_KeyAndMap,
+	valueTranslation = DWAPBateman_KeyAndMap_value,
+}
+
+option DWAPBateman.EssentialLoot
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = DWAPBateman_General,
+	translation = DWAPBateman_EssentialLoot,
+	valueTranslation = DWAPBateman_EssentialLoot_value,
+}
+
+option DWAPBateman.RegularLoot
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+
+	page = DWAPBateman_General,
+	translation = DWAPBateman_RegularLoot,
+	valueTranslation = DWAPBateman_RegularLoot_value,
+}
+
+option DWAPBateman.ExtraLoot
+{
+	type = boolean,
+	default = false,
+
+	page = DWAPBateman_General,
+	translation = DWAPBateman_ExtraLoot,
+}

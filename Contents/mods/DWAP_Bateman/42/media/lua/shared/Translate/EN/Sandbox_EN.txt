@@ -1,0 +1,42 @@
+Sandbox_EN = {
+	Sandbox_DWAPBateman_General = "UDWAP Bateman Tower",
+
+	Sandbox_DWAPBateman_MakePrimary = "Force this safehouse as primary",
+	Sandbox_DWAPBateman_MakePrimary_tooltip = "Overrides the Uncle Dave settings for the selected safe house in favor of this one",
+
+	Sandbox_DWAPBateman_KeepZombies = "Keep Zombies",
+	Sandbox_DWAPBateman_KeepZombies_tooltip = "Building will start with zombies except for 15 tiles from spawn",
+
+	Sandbox_DWAPBateman_SpawnLocation = "Spawn Location",
+	Sandbox_DWAPBateman_SpawnLocation_tooltip = "Only applies if Bateman tower spawn is selected",
+	Sandbox_DWAPBateman_SpawnLocation_value_option1 = "Random",
+	Sandbox_DWAPBateman_SpawnLocation_value_option2 = "Penthouse Bedroom",
+	Sandbox_DWAPBateman_SpawnLocation_value_option3 = "26th Apt",
+	Sandbox_DWAPBateman_SpawnLocation_value_option4 = "22nd Restaurant Lobby",
+	Sandbox_DWAPBateman_SpawnLocation_value_option5 = "17th Balcony",
+	Sandbox_DWAPBateman_SpawnLocation_value_option6 = "10th Construction Storage",
+	Sandbox_DWAPBateman_SpawnLocation_value_option7 = "4th Balcony",
+	Sandbox_DWAPBateman_SpawnLocation_value_option8 = "1st Bathroom",
+	Sandbox_DWAPBateman_SpawnLocation_value_option9 = "Basement",
+
+	Sandbox_DWAPBateman_KeyAndMap = "Start with Map & Keys",
+	Sandbox_DWAPBateman_KeyAndMap_value_option1 = "If Primary",
+	Sandbox_DWAPBateman_KeyAndMap_value_option2 = "With Primary (extra)",
+
+	Sandbox_DWAPBateman_EssentialLoot = "Essential Loot",
+	Sandbox_DWAPBateman_EssentialLoot_tooltip = "Based on main settings if enabled",
+	Sandbox_DWAPBateman_EssentialLoot_value_option1 = "None",
+	Sandbox_DWAPBateman_EssentialLoot_value_option2 = "If Primary",
+	Sandbox_DWAPBateman_EssentialLoot_value_option3 = "With Primary (extra)",
+
+	Sandbox_DWAPBateman_RegularLoot = "Regular Loot",
+	Sandbox_DWAPBateman_RegularLoot_tooltip = "Based on main settings if enabled",
+	Sandbox_DWAPBateman_RegularLoot_value_option1 = "Same as Primary",
+	Sandbox_DWAPBateman_RegularLoot_value_option2 = "None",
+	Sandbox_DWAPBateman_RegularLoot_value_option3 = "High",
+	Sandbox_DWAPBateman_RegularLoot_value_option4 = "Medium",
+	Sandbox_DWAPBateman_RegularLoot_value_option5 = "Low",
+
+	Sandbox_DWAPBateman_ExtraLoot = "Extra Loot",
+	Sandbox_DWAPBateman_ExtraLoot_tooltip = "Significantly expands the number of containers with modified loot",
+}
