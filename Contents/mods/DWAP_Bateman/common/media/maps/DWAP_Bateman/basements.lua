@@ -6,12 +6,14 @@ local basement_access = {
     ba_dwap_generator = { width=1, height=1, stairx=0, stairy=0, stairDir="N" },
     ba_dwap_bateman = { width=30, height=20, stairx=1, stairy=2, stairDir="W" },
     ba_dwap_bateman_no_elev = { width=30, height=20, stairx=1, stairy=2, stairDir="W" },
+    ba_dwap_north_power = { width=4, height=1, stairx=0, stairy=0, stairDir="N" },
 }
 
 local fullConfig = table.newarray()
 fullConfig[1] = {
     locations = {
         {x=12763, y = 1529, z=0, stairDir="W", choices={"dwap_bateman_basement"}, access="ba_dwap_bateman_no_elev", },
+        {x=12752+12, y = 1510, z=0, stairDir="N", choices={"dummy"}, access="ba_dwap_north_power", },
     },
 }
 

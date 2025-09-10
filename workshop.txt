@@ -1,0 +1,6 @@
+version=1
+id=3563400549
+title=UDWAP Bateman Tower
+description=Water and power for the full Bateman Tower. 6 Generators in the basement provide power including for the Elevators (highly recommend gun's elevator mod). Optional solar support. Select from multple floors, start with the building cleared of zombies, or clear it yourself.
+tags=Build 42;Building;Map;QoL
+visibility=public

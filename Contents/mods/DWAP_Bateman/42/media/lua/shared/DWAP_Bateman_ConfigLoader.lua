@@ -5,7 +5,8 @@ Events.OnLoadRadioScripts.Add(function()
         file = "DWAP_Bateman/configs/DWAP_Bateman",
         overrides = {
             makePrimary = SandboxVars.DWAPBateman.MakePrimary,
-            keyAndMap = SandboxVars.DWAPBateman.KeyAndMap,
+            key = SandboxVars.DWAPBateman.Key,
+            map = SandboxVars.DWAPBateman.Map,
             essentialLoot = SandboxVars.DWAPBateman.EssentialLoot,
             regularLoot = SandboxVars.DWAPBateman.RegularLoot,
         },

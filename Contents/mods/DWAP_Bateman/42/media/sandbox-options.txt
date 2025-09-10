@@ -30,15 +30,26 @@ option DWAPBateman.SpawnLocation
 	valueTranslation = DWAPBateman_SpawnLocation_value,
 }
 
-option DWAPBateman.KeyAndMap
+option DWAPBateman.Key
 {
 	type = enum,
 	numValues = 2,
 	default = 1,
 
 	page = DWAPBateman_General,
-	translation = DWAPBateman_KeyAndMap,
-	valueTranslation = DWAPBateman_KeyAndMap_value,
+	translation = DWAPBateman_Key,
+	valueTranslation = DWAPBateman_Key_value,
+}
+
+option DWAPBateman.Map
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = DWAPBateman_General,
+	translation = DWAPBateman_Map,
+	valueTranslation = DWAPBateman_Map_value,
 }
 
 option DWAPBateman.EssentialLoot

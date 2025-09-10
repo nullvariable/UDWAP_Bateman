@@ -23,4 +23,10 @@ for i = 1, #configs do
         DWAPStashMap:addStamp(stamp[1], stamp[2], stamp[3], stamp[4], stamp[5], stamp[6], stamp[7])
     end
     DWAPStashMap.customName = config.name
+    Events.OnInitGlobalModData.Add(function()
+        if SandboxVars.DWAPBateman.Map < 3 then
+            DWAPStashMap.minDayToSpawn = 100
+            DWAPStashMap.maxDayToSpawn = 1
+        end
+    end)
 end

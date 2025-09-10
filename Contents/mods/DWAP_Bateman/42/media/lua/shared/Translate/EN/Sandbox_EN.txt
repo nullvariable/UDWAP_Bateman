@@ -19,9 +19,14 @@ Sandbox_EN = {
 	Sandbox_DWAPBateman_SpawnLocation_value_option8 = "1st Bathroom",
 	Sandbox_DWAPBateman_SpawnLocation_value_option9 = "Basement",
 
-	Sandbox_DWAPBateman_KeyAndMap = "Start with Map & Keys",
-	Sandbox_DWAPBateman_KeyAndMap_value_option1 = "If Primary",
-	Sandbox_DWAPBateman_KeyAndMap_value_option2 = "With Primary (extra)",
+	Sandbox_DWAPBateman_Key = "Start with Keys",
+	Sandbox_DWAPBateman_Key_value_option1 = "If Primary",
+	Sandbox_DWAPBateman_Key_value_option2 = "With Primary (extra)",
+
+	Sandbox_DWAPBateman_Map = "Start with Map",
+	Sandbox_DWAPBateman_Map_value_option1 = "If Primary",
+	Sandbox_DWAPBateman_Map_value_option2 = "Yes (with primary)",
+	Sandbox_DWAPBateman_Map_value_option3 = "Random Zombie/Stash",
 
 	Sandbox_DWAPBateman_EssentialLoot = "Essential Loot",
 	Sandbox_DWAPBateman_EssentialLoot_tooltip = "Based on main settings if enabled",
